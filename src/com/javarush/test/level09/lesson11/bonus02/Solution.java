@@ -16,16 +16,21 @@ public class Solution
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         String sourceFileName = reader.readLine();
+        FileInputStream fileInputStream;
+        while (true) {
+            try {
+                fileInputStream = new FileInputStream(sourceFileName);
+            } catch (FileNotFoundException e) {
+                System.out.println("Файл не существует.");
+                sourceFileName = reader.readLine();
+                continue;
+            }
+            break;
+        }
+
         String destinationFileName = reader.readLine();
 
-        FileInputStream fileInputStream = new FileInputStream(sourceFileName);
         FileOutputStream fileOutputStream = new FileOutputStream(destinationFileName);
-
-        while (fileInputStream.available() > 0)
-        {
-            int data = fileInputStream.read();
-            fileOutputStream.write(data);
-        }
 
         fileInputStream.close();
         fileOutputStream.close();
