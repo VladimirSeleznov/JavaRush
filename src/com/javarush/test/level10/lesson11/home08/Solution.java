@@ -20,7 +20,7 @@ public class Solution
         ArrayList<String> wow = new ArrayList<String>();
         wow.add("Wow");
         ArrayList<String> hi = new ArrayList<String>();
-        hi.add("Hi");
+        hi.add("Hui");
         ArrayList<String> bye = new ArrayList<String>();
         bye.add("Bye");
         list[0]=hi;
