@@ -9,8 +9,19 @@ public class Solution
 {
     public static void main(String[] args)
     {
-
+        Integer integer = 1;
+        int i = 2;
+        print(integer);
+        print(i);
     }
 
-    //Напишите тут ваши методы
+    public static Integer print(Integer s)
+    {
+        return 0;
+    }
+
+    public static int print(int n)
+    {
+        return 0;
+    }
 }

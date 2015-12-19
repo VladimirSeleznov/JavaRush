@@ -11,5 +11,13 @@ public class Solution
 
     }
 
-    //Напишите тут ваши методы
+    public static int print(String s)
+    {
+        return 0;
+    }
+
+    public static String print(int n)
+    {
+        return null;
+    }
 }
