@@ -17,8 +17,8 @@ public class Solution
 
     public static class Cat
     {
-        public String name;
-        public int speed;
+        private String name;
+        private int speed;
 
         public Cat(String name, int speed)
         {
@@ -26,12 +26,12 @@ public class Solution
             this.speed = speed;
         }
 
-        public String getName()
+        private String getName()
         {
             return name;
         }
 
-        public int getSpeed()
+        private int getSpeed()
         {
             return speed;
         }
@@ -44,8 +44,8 @@ public class Solution
 
     public static  class Dog
     {
-        public String name;
-        public int speed;
+        private String name;
+        private int speed;
 
         public Dog(String name, int speed)
         {
@@ -53,12 +53,12 @@ public class Solution
             this.speed = speed;
         }
 
-        public String getName()
+        private String getName()
         {
             return name;
         }
 
-        public int getSpeed()
+        private int getSpeed()
         {
             return speed;
         }

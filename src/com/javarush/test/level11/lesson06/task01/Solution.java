@@ -13,11 +13,12 @@ public class Solution
 
     public class Horse
     {
-
+        String name;
+        String color;
     }
 
-    public class Pegas
+    public class Pegas extends Horse
     {
-
+        String fly;
     }
 }

@@ -10,22 +10,22 @@ public class Solution
     {
     }
 
-    public class Carnivora
+    public class Carnivora extends Animal
     {
 
     }
 
-    public class Cow
+    public class Cow extends Animal
     {
 
     }
 
-    public class Dog
+    public class Dog extends Carnivora
     {
 
     }
 
-    public class Pig
+    public class Pig extends Animal
     {
 
     }

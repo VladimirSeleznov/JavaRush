@@ -13,16 +13,21 @@ public class Solution
 
     public class Pet
     {
-
+        String name;
+        int age;
     }
 
-    public class Cat
+    public class Cat extends  Pet
     {
-
+        void say (){
+            System.out.println("Myau");
+        }
     }
 
-    public class Dog
+    public class Dog extends  Pet
     {
-
+        void say (){
+            System.out.println("gav");
+        }
     }
 }
