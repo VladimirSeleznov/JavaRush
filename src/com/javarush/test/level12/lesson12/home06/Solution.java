@@ -10,15 +10,58 @@ package com.javarush.test.level12.lesson12.home06;
 
 public class Solution {
 
-    public class Cat {
+    public interface Fly
+    {
+        public void fly();
     }
 
-    public class Dog {
+    public interface Climb
+    {
+        public void climb();
     }
 
-    public class Tiger extends Cat {
+    public interface Run
+    {
+        public void run();
     }
 
-    public class Duck {
+
+    public class Cat implements Run, Climb{
+        @Override
+        public void climb()
+        {
+
+        }
+
+        @Override
+        public void run()
+        {
+
+        }
+    }
+
+    public class Dog implements Run{
+        @Override
+        public void run()
+        {
+
+        }
+    }
+
+    public class Tiger extends Cat implements Run, Climb{
+    }
+
+    public class Duck implements Run, Fly{
+        @Override
+        public void fly()
+        {
+
+        }
+
+        @Override
+        public void run()
+        {
+
+        }
     }
 }

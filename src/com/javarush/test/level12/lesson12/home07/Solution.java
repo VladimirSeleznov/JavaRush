@@ -27,18 +27,51 @@ public class Solution
         public void swim();
     }
 
-    public class Duck
+    public class Duck implements Run, Swim, Fly
     {
 
+        @Override
+        public void run()
+        {
+
+        }
+
+        @Override
+        public void swim()
+        {
+
+        }
+
+        @Override
+        public void fly()
+        {
+
+        }
     }
 
-    public class Penguin
+    public class Penguin implements Run, Swim
     {
 
+        @Override
+        public void run()
+        {
+
+        }
+
+        @Override
+        public void swim()
+        {
+
+        }
     }
 
-    public class Toad
+    public class Toad implements Swim
     {
 
+        @Override
+        public void swim()
+        {
+
+        }
     }
 }
