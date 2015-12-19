@@ -1,176 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54f4003d-c319-4a01-b447-fb1cc19a97fa" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level03\lesson08\task01\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level03\lesson12\home01\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level03\lesson12\home02\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level03\lesson12\home03\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level04\lesson02\task01\Cat.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level04\lesson02\task02\Cat.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level04\lesson02\task03\Cat.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level04\lesson02\task04\Cat.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level04\lesson02\task05\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level04\lesson06\task01\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level04\lesson06\task02\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level04\lesson06\task03\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level04\lesson06\task04\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level04\lesson06\task05\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level04\lesson06\task06\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level04\lesson10\task01\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level04\lesson10\task02\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level04\lesson10\task03\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level04\lesson10\task04\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level04\lesson10\task05\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level04\lesson13\task01\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level04\lesson13\task02\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level04\lesson13\task03\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level04\lesson13\task04\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level04\lesson13\task05\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level04\lesson16\home01\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level04\lesson16\home02\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level04\lesson16\home03\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level04\lesson16\home04\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level05\lesson05\task01\Cat.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level05\lesson05\task02\Cat.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level05\lesson05\task03\Dog.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level05\lesson05\task04\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level05\lesson05\task05\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level05\lesson07\task01\Friend.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level05\lesson07\task02\Cat.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level05\lesson07\task03\Dog.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level05\lesson07\task04\Circle.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level05\lesson07\task05\Rectangle.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level05\lesson09\task01\Friend.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level05\lesson09\task02\Cat.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level05\lesson09\task03\Dog.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level05\lesson09\task04\Circle.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level05\lesson09\task05\Rectangle.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level05\lesson12\bonus01\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level05\lesson12\bonus02\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level05\lesson12\bonus03\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level05\lesson12\home01\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level05\lesson12\home02\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level05\lesson12\home03\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level05\lesson12\home04\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level05\lesson12\home05\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level06\lesson05\task01\Cat.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level06\lesson05\task02\Cat.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level06\lesson05\task03\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level06\lesson05\task04\Cat.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level06\lesson08\task01\Cat.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level06\lesson08\task02\Cat.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level06\lesson08\task03\Util.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level06\lesson08\task04\ConsoleReader.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level06\lesson08\task05\StringHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level06\lesson11\bonus01\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level06\lesson11\bonus02\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level06\lesson11\bonus03\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level06\lesson11\home01\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level06\lesson11\home02\Cat.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level06\lesson11\home03\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level06\lesson11\home04\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level06\lesson11\home05\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level06\lesson11\home06\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level06\lesson11\home07\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level07\lesson04\task01\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level07\lesson04\task02\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level07\lesson04\task03\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level07\lesson04\task04\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level07\lesson04\task05\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level07\lesson06\task01\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level07\lesson06\task02\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level07\lesson06\task03\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level07\lesson06\task04\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level07\lesson06\task05\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level07\lesson09\task01\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level07\lesson09\task02\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level07\lesson09\task03\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level07\lesson09\task04\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level07\lesson09\task05\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level07\lesson12\bonus01\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level07\lesson12\bonus02\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level07\lesson12\bonus03\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level07\lesson12\home01\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level07\lesson12\home02\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level07\lesson12\home03\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level07\lesson12\home04\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level07\lesson12\home05\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level07\lesson12\home06\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level07\lesson12\home07\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level08\lesson03\task01\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level08\lesson03\task02\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level08\lesson03\task03\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level08\lesson03\task04\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level08\lesson03\task05\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level08\lesson03\task06\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level08\lesson06\task01\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level08\lesson06\task02\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level08\lesson06\task03\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level08\lesson06\task04\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level08\lesson06\task05\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level08\lesson08\task01\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level08\lesson08\task02\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level08\lesson08\task03\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level08\lesson08\task04\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level08\lesson08\task05\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level08\lesson11\bonus01\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level08\lesson11\bonus02\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level08\lesson11\bonus03\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level08\lesson11\home01\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level08\lesson11\home02\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level08\lesson11\home03\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level08\lesson11\home04\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level08\lesson11\home05\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level08\lesson11\home06\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level08\lesson11\home07\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level08\lesson11\home08\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level08\lesson11\home09\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level09\lesson02\task01\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level09\lesson02\task02\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level09\lesson02\task03\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level09\lesson02\task04\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level09\lesson02\task05\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level09\lesson06\task01\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level09\lesson06\task02\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level09\lesson06\task03\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level09\lesson06\task04\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level09\lesson06\task05\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level09\lesson08\task01\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level09\lesson08\task02\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level09\lesson08\task03\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level09\lesson08\task04\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level09\lesson08\task05\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level09\lesson11\bonus01\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level09\lesson11\bonus02\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level09\lesson11\bonus03\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level09\lesson11\home02\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level09\lesson11\home03\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level09\lesson11\home04\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level09\lesson11\home05\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level09\lesson11\home06\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level09\lesson11\home07\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level09\lesson11\home08\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level09\lesson11\home09\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level10\lesson04\task01\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level10\lesson04\task02\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level10\lesson04\task03\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level10\lesson04\task04\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level10\lesson04\task05\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level10\lesson11\bonus01\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level10\lesson11\bonus02\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level10\lesson11\bonus03\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level10\lesson11\home01\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level10\lesson11\home02\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level10\lesson11\home03\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level10\lesson11\home04\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level10\lesson11\home05\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level10\lesson11\home06\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level10\lesson11\home07\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level10\lesson11\home08\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level10\lesson11\home09\Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\src\com\javarush\test\level10\lesson11\home10\Solution.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="54f4003d-c319-4a01-b447-fb1cc19a97fa" name="Default" comment="1-10 deleted">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson02/task01/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson02/task02/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson02/task03/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson02/task04/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson02/task05/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson04/task01/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson04/task02/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson04/task03/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson04/task04/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson04/task05/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson06/task01/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson06/task02/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson06/task03/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson06/task04/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson06/task05/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson09/task01/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson09/task02/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson09/task03/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson09/task04/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson09/task05/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/bonus01/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/bonus02/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/bonus03/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/home01/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/home02/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/home03/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/home04/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/home05/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/home06/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/home07/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/home08/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/home09/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/home10/Solution.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaRushHomeWork.iws" />
@@ -202,12 +66,110 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/home06/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.016098484">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/home07/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/home08/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/home09/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.45075756">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#592#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/home10/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/bonus01/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="2" selection-end-line="41" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#844#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/bonus02/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/bonus03/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson06/task02/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="2" selection-end-line="24" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#434#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson06/task03/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="2" selection-end-line="23" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#422#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -233,11 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/javarush/test/level08/lesson11/home09/Solution.java" />
-        <option value="$PROJECT_DIR$/src/com/javarush/test/level08/lesson11/bonus01/Solution.java" />
-        <option value="$PROJECT_DIR$/src/com/javarush/test/level08/lesson11/bonus02/Solution.java" />
-        <option value="$PROJECT_DIR$/src/com/javarush/test/level08/lesson11/bonus03/Solution.java" />
-        <option value="$PROJECT_DIR$/src/com/javarush/test/level09/lesson02/task01/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/javarush/test/level09/lesson02/task02/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/javarush/test/level09/lesson02/task03/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/javarush/test/level09/lesson02/task04/Solution.java" />
@@ -284,6 +241,11 @@
         <option value="$PROJECT_DIR$/src/com/javarush/test/level10/lesson11/bonus03/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/javarush/test/.gitignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/com/javarush/test/level12/lesson02/task01/Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/javarush/test/level12/lesson06/task02/Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/javarush/test/level12/lesson06/task03/Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/bonus01/Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/home09/Solution.java" />
       </list>
     </option>
   </component>
@@ -379,6 +341,222 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaRushHomeWork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaRushHomeWork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="level12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesson12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaRushHomeWork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaRushHomeWork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="level12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesson12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home09" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaRushHomeWork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaRushHomeWork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="level12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesson12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bonus01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaRushHomeWork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaRushHomeWork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="level12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaRushHomeWork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaRushHomeWork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="level12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesson06" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaRushHomeWork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaRushHomeWork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="level12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesson06" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task03" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaRushHomeWork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaRushHomeWork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="level12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesson06" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaRushHomeWork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaRushHomeWork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="level11" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -781,7 +959,7 @@
       <option name="number" value="Default" />
       <updated>1445093460465</updated>
       <workItem from="1450528467163" duration="1679000" />
-      <workItem from="1450535464596" duration="835000" />
+      <workItem from="1450535464596" duration="1808000" />
     </task>
     <task id="LOCAL-00001" summary="New tasks">
       <created>1449925520000</created>
@@ -801,11 +979,17 @@
       <option name="project" value="LOCAL" />
       <updated>1450535592265</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1-10 deleted">
+      <created>1450536398066</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1450536398066</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2514000" />
+    <option name="totallyTimeSpent" value="3487000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1216" extended-state="6" />
@@ -852,7 +1036,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New tasks" />
     <MESSAGE value="gitignore added" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore added" />
+    <MESSAGE value="1-10 deleted" />
+    <option name="LAST_COMMIT_MESSAGE" value="1-10 deleted" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -925,9 +1110,281 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.016098484">
+        <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson02/task01/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson02/task02/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson02/task03/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson02/task04/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson02/task05/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson04/task01/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson04/task02/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson04/task03/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson04/task04/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson04/task05/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson06/task01/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson06/task04/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson06/task05/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson09/task01/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson09/task02/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson09/task03/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson09/task04/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson09/task05/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/home01/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/home02/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/home03/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/home04/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/home05/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/home06/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/home07/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/home08/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/home10/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/bonus02/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/bonus03/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson06/task02/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="2" selection-end-line="24" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#434#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson06/task03/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="2" selection-end-line="23" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#422#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/bonus01/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="2" selection-end-line="41" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#844#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level12/lesson12/home09/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45075756">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#592#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
