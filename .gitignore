@@ -1,3 +1,4 @@
+# Created by .ignore support plugin (hsz.mobi)
 .idea/
 level03/
 level04/
@@ -6,6 +7,5 @@ level06/
 level07/
 level08/
 level09/
-level10/
 /src/com/javarush/test/Cycle.java
-out/
+level10/
