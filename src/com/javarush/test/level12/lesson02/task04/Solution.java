@@ -17,7 +17,7 @@ public class Solution
 
     public static void printObjectType(Object o)
     {
-      //Напишите тут ваше решение
+
     }
 
     public static class Cat

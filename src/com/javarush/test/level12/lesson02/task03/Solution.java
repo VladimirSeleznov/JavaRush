@@ -25,11 +25,17 @@ public class Solution
 
     public static class Cat extends Pet
     {
-
+        public Pet getChild()
+        {
+            return new Cat();
+        }
     }
 
     public static class Dog extends Pet
     {
-
+        public Pet getChild()
+        {
+            return new Dog();
+        }
     }
 }
