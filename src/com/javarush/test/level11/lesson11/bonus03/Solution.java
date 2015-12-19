@@ -4,6 +4,8 @@ package com.javarush.test.level11.lesson11.bonus03;
 Написать метод, который возвращает минимальное и максимальное числа в массиве.
 */
 
+import java.util.Arrays;
+
 public class Solution
 {
     public static void main(String[] args) throws Exception
@@ -23,9 +25,11 @@ public class Solution
             return new Pair<Integer, Integer>(null, null);
         }
 
-        //Напишите тут ваше решение
+        Arrays.sort(array);
+        int min = array[0];
+        int max = array[array.length-1];
 
-        return new Pair<Integer, Integer>(0, 0);
+        return new Pair<Integer, Integer>(min, max);
     }
 
 

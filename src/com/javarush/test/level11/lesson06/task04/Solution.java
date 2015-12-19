@@ -7,12 +7,12 @@ package com.javarush.test.level11.lesson06.task04;
 
 public class Solution
 {
-    public class Manager
+    public class Manager extends Employee
     {
 
     }
 
-    public class Chief
+    public class Chief extends Employee
     {
 
     }
@@ -22,7 +22,7 @@ public class Solution
 
     }
 
-    public class Secretary
+    public class Secretary extends Employee
     {
 
     }

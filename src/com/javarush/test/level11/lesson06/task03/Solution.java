@@ -16,27 +16,27 @@ public class Solution
 
     }
 
-    public class Cow
+    public class Cow extends Animal
     {
 
     }
 
-    public class Pig
+    public class Pig extends Animal
     {
 
     }
 
-    public class Sheep
+    public class Sheep extends Animal
     {
 
     }
 
-    public class Bull
+    public class Bull extends Animal
     {
 
     }
 
-    public class Goat
+    public class Goat extends Animal
     {
 
     }
