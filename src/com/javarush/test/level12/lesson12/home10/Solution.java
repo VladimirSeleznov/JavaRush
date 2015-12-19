@@ -5,6 +5,7 @@ package com.javarush.test.level12.lesson12.home10;
 Подсказка: используй перегрузку методов.
 */
 
+
 public class Solution
 {
     public static void main(String[] args)
@@ -18,5 +19,10 @@ public class Solution
     public static int transformValue(int i)
     {
         return i*i;
+    }
+
+    public static Integer transformValue(Integer i)
+    {
+        return i*2;
     }
 }
