@@ -12,6 +12,19 @@ public class Solution
 
     }
 
-//add interfaces here - добавь интерфейсы тут
 
+    public interface Fly
+    {
+        int speed();
+    }
+
+    public interface Run
+    {
+        int speed();
+    }
+
+    public interface Swim
+    {
+        int speed();
+    }
 }
