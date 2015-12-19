@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54f4003d-c319-4a01-b447-fb1cc19a97fa" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\.idea\compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\.idea\copyright\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\.idea\uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\.idea\vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="D:\Install\Javarush\JavaRushHomeWork\.idea\workspace.xml" afterPath="" />
     </list>
     <ignored path="JavaRushHomeWork.iws" />
@@ -934,7 +927,7 @@
       <updated>1445093460465</updated>
       <workItem from="1450528467163" duration="1679000" />
       <workItem from="1450535464596" duration="1808000" />
-      <workItem from="1450538064427" duration="104000" />
+      <workItem from="1450538064427" duration="168000" />
     </task>
     <task id="LOCAL-00001" summary="New tasks">
       <created>1449925520000</created>
@@ -966,11 +959,17 @@
       <option name="project" value="LOCAL" />
       <updated>1450538121972</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=".idea fix">
+      <created>1450538171714</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1450538171714</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3591000" />
+    <option name="totallyTimeSpent" value="3655000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1216" extended-state="6" />
