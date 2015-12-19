@@ -11,5 +11,29 @@ public class Solution
 
     }
 
-    //Напишите тут ваши методы
+    public static int print(int n)
+    {
+        return 0;
+    }
+
+    public static int print(String n)
+    {
+        return 0;
+    }
+
+    public static int print(Integer n)
+    {
+        return 0;
+    }
+
+    public static int print(double n)
+    {
+        return 0;
+    }
+
+    public static int print(long n)
+    {
+        return 0;
+    }
+
 }

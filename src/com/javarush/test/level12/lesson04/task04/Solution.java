@@ -12,5 +12,27 @@ public class Solution
 
     }
 
-    //Напишите тут ваши методы
+    public int min(int x, int y) {
+        if (x < y) {
+            return x;
+        } else {
+            return y;
+        }
+    }
+
+    public long min(long x, long y) {
+        if (x < y) {
+            return x;
+        } else {
+            return y;
+        }
+    }
+
+    public double min(double x, double y) {
+        if (x < y) {
+            return x;
+        } else {
+            return y;
+        }
+    }
 }
