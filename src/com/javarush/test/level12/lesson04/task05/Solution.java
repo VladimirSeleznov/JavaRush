@@ -12,5 +12,27 @@ public class Solution
 
     }
 
-    //Напишите тут ваши методы
+    public int max(int x, int y) {
+        if (x > y) {
+            return x;
+        } else {
+            return y;
+        }
+    }
+
+    public long max(long x, long y) {
+        if (x > y) {
+            return x;
+        } else {
+            return y;
+        }
+    }
+
+    public double max(double x, double y) {
+        if (x > y) {
+            return x;
+        } else {
+            return y;
+        }
+    }
 }
