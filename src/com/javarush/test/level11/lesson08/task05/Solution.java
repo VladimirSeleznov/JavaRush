@@ -12,10 +12,16 @@ public class Solution
 
     public class Cat
     {
+        public String name;
+        public int age;
+        public int weight;
+        public int speed;
 
         public Cat(String name, int age, int weight)
         {
-
+            this.name = name;
+            this.age = age;
+            this.weight = weight;
         }
 
         public String getName()
@@ -30,12 +36,12 @@ public class Solution
 
         public void setWeight(int weight)
         {
-
+            this.weight =  weight;
         }
 
         public void setSpeed(int speed)
         {
-
+            this.speed = speed;
         }
     }
 }

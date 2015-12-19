@@ -16,12 +16,12 @@ public class Solution
 
     }
 
-    public class Christianity
+    public class Christianity extends Judaism
     {
 
     }
 
-    public class Islam
+    public class Islam extends Christianity
     {
 
     }

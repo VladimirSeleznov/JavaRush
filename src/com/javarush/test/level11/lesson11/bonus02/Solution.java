@@ -9,28 +9,30 @@ public class Solution
     public static void main(String[] args)
     {
     }
+    public class Chesspiece
+    {}
 
-    public class King
+    public class King extends Chesspiece
     {
     }
 
-    public class Queen
+    public class Queen extends Chesspiece
     {
     }
 
-    public class Rook
+    public class Rook extends Chesspiece
     {
     }
 
-    public class Knight
+    public class Knight extends Chesspiece
     {
     }
 
-    public class Bishop
+    public class Bishop extends Chesspiece
     {
     }
 
-    public class Pawn
+    public class Pawn extends Chesspiece
     {
     }
 }

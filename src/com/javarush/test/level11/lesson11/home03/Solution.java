@@ -11,7 +11,7 @@ public class Solution
     {
     }
 
-    public class Fish
+    public class Fish extends Animal
     {
 
     }
@@ -21,12 +21,12 @@ public class Solution
 
     }
 
-    public class Ape
+    public class Ape extends Animal
     {
 
     }
 
-    public class Human
+    public class Human extends Ape
     {
 
     }

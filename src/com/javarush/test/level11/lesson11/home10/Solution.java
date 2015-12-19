@@ -10,22 +10,22 @@ public class Solution
     {
     }
 
-    public class House
+    public class House extends Assets
     {
 
     }
 
-    public class Cat
+    public class Cat extends Animal
     {
 
     }
 
-    public class Car
+    public class Car extends Assets
     {
 
     }
 
-    public class Dog
+    public class Dog extends Animal
     {
 
     }
