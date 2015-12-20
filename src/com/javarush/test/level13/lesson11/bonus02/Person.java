@@ -1,6 +1,6 @@
 package com.javarush.test.level13.lesson11.bonus02;
 
-public class Person
+public class Person implements RepkaItem
 {
     private String name;
     private String namePadezh;
@@ -9,5 +9,16 @@ public class Person
     {
         this.name = name;
         this.namePadezh = namePadezh;
+    }
+
+    @Override
+    public String getNamePadezh()
+    {
+        return namePadezh;
+    }
+
+    public void pull(Person x)
+    {
+        System.out.println(this.name + " за " + x.namePadezh);
     }
 }
