@@ -28,7 +28,17 @@ public class Solution
 
     public static void cleanAllApartaments(List<Apartament> apartaments)
     {
-        //написать тут вашу реализацию пунктов 1-4
+        for (Apartament apartament : apartaments)
+        {
+            if (apartament instanceof Apt1Room) {
+                ((Apt1Room) apartament).clean1Room();
+            } else if (apartament instanceof Apt2Room) {
+                ((Apt2Room) apartament).clean2Rooms();
+            } else if (apartament instanceof Apt3Room) {
+                ((Apt3Room) apartament).clean3Rooms();
+            }
+        }
+
     }
 
     static interface Apartament

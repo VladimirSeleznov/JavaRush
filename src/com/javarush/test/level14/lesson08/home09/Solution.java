@@ -37,7 +37,8 @@ public class Solution
         {
             this.name = name;
             this.allMoney = new ArrayList<Money>();
-            //Add your code here
+            allMoney.add(new Hrivna(20.0));
+            allMoney.add(new USD(15.0));
         }
 
         private List<Money> allMoney;

@@ -8,7 +8,7 @@ public class Solution
 {
     public static void main(String[] args)
     {
-        Object o = new Pet();
+        Object o = new Tiger();
         boolean isCat = o instanceof Cat;
         boolean isTiger = o instanceof Tiger;
         boolean isPet = o instanceof Pet;

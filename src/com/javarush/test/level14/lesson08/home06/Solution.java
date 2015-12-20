@@ -17,11 +17,21 @@ package com.javarush.test.level14.lesson08.home06;
 8.2. Вывести на экран movie.getClass().getSimpleName().
 */
 
+import java.util.Scanner;
+
 public class Solution
 {
     public static void main(String[] args) throws Exception
     {
-        //ввести с консоли несколько ключей (строк), пункт 7
+        Scanner scanner = new Scanner(System.in);
+        Movie movie;
+        String key = scanner.nextLine();
+        while (key.equals("cartoon") || key.equals("thriller") || key.equals("soapOpera"))
+        {
+            movie = MovieFactory.getMovie(key);
+            System.out.println(movie.getClass().getSimpleName());
+            key = scanner.nextLine();
+        }
 
         /*
 8 Создать переменную movie класса Movie и для каждой введенной строки(ключа):
@@ -44,7 +54,15 @@ public class Solution
                 movie = new SoapOpera();
             }
 
-            //напишите тут ваш код, пункты 5,6
+            if ("cartoon".equals(key))
+            {
+                movie = new Cartoon();
+            }
+
+            if ("thriller".equals(key))
+            {
+                movie = new Thriller();
+            }
 
             return movie;
         }
@@ -58,5 +76,11 @@ public class Solution
     {
     }
 
-    //Напишите тут ваши классы, пункт 3
+    public static class Cartoon extends Movie
+    {
+    }
+
+    public static class Thriller extends Movie
+    {
+    }
 }

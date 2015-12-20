@@ -33,7 +33,12 @@ public class Solution
 
     public static void haveRest(Person person)
     {
-        //Add your code here
+        if (person instanceof Dancer) {
+            ((Dancer) person).dance();
+        } else if (person instanceof Player)
+        {
+            ((Player) person).play();
+        }
     }
 
     interface Person

@@ -8,7 +8,7 @@ public class Solution
 {
     public static void main(String[] args)
     {
-        Cat o = new Cat();
+        Cat o = new TomCat();
 
         boolean isCat = o instanceof Cat;
         boolean isMoveable = o instanceof Moveable;
