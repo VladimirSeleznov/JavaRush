@@ -23,15 +23,15 @@ public class Solution
         boolean wantGetExtraWork();
     }
 
-    interface Secretary
+    interface Secretary extends Person
     {
     }
 
-    interface Boss
+    interface Boss extends Person, Workable
     {
     }
 
-    class CleverMan
+    class CleverMan implements Boss
     {
         public void use(Person person)
         {
@@ -48,7 +48,7 @@ public class Solution
         }
     }
 
-    class SmartGirl
+    class SmartGirl implements Secretary
     {
         public void use(Person person)
         {
