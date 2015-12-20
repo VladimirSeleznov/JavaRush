@@ -10,6 +10,10 @@ public class Solution
     {
 
     }
-//add an interface here - добавь интерфейс тут
+    interface Fly
+    {
+        void forward();
+        void back();
+    }
 
 }

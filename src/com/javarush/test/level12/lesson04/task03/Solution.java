@@ -11,5 +11,19 @@ public class Solution
 
     }
 
-    //Напишите тут ваши методы
+    public static void print(int i){
+        System.out.println(i);
+    }
+    public static void print(long i){
+        System.out.println(i);
+    }
+    public static void print(double i){
+        System.out.println(i);
+    }
+    public static void print(float i){
+        System.out.println(i);
+    }
+    public static void print(String i){
+        System.out.println(i);
+    }
 }

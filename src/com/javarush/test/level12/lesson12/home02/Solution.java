@@ -37,6 +37,8 @@ public class Solution
 
     public static class Cat extends Pet
     {
-
+        public void setName(){
+            System.out.println("Я - кот");
+        }
     }
 }

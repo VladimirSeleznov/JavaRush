@@ -19,4 +19,8 @@ public class Solution
     {
         return i*i;
     }
+    public static Integer transformValue(Integer i)
+    {
+        return 10;
+    }
 }

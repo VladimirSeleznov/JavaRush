@@ -11,7 +11,7 @@ public class Solution
 
     }
 
-    public static class Pet
+    public abstract class Pet
     {
         public String getName()
         {

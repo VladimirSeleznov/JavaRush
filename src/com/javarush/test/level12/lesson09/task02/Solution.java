@@ -12,6 +12,18 @@ public class Solution
 
     }
 
-//add interfaces here - добавь интерфейсы тут
+    interface Fly
+    {
+        void getSpeed();
+    }
 
+    interface Run
+    {
+        void getSpeed();
+    }
+
+    interface Swim
+    {
+        void getSpeed();
+    }
 }

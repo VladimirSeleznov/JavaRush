@@ -16,9 +16,10 @@ public class Solution
 
     public static String getObjectType(Object o)
     {
-        //Напишите тут ваше решение
-
-        return "Неизвестное животное";
+        if (o instanceof Cow) return "Корова";
+        else if (o instanceof Whale) return "Кит";
+        else if (o instanceof Dog) return "Собака";
+        else return "Неизвестное животное";
     }
 
     public static class Cow

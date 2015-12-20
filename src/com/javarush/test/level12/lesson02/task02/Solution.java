@@ -23,6 +23,8 @@ public class Solution
 
     public static class Whale extends Cow
     {
-
+        public String getName(){
+           return "";
+        }
     }
 }

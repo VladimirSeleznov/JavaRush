@@ -22,10 +22,16 @@ public class Solution
         {
             return new Pair<Integer, Integer>(null, null);
         }
+        int a = array[0];
+        int b = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] < a){
+                a = array[i];
+                b = i;
+            }
+        }
 
-        //Напишите тут ваше решение
-
-        return new Pair<Integer, Integer>(0, 0);
+        return new Pair<Integer, Integer>(a, b);
     }
 
 
