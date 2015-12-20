@@ -34,14 +34,8 @@ public class Solution
     //add your code below
     public static class BigFox extends Fox
     {
-        public Color () {
+        public Color getColor() {
             return Color.GRAY;
-        }
-
-        @Override
-        public Color getColor()
-        {
-            return null;
         }
     }
 
