@@ -17,10 +17,31 @@ package com.javarush.test.level13.lesson11.bonus01;
 10
 */
 
+import java.io.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Scanner;
+
 public class Solution
 {
-    public static void main(String[] args)
+    public static void main(String[] args) throws IOException
     {
-        // напишите тут ваш код
+        Scanner scanner = new Scanner(System.in);
+        String file = scanner.nextLine();
+        scanner.close();
+        Scanner fileScanner = new Scanner(new FileReader(file));
+        ArrayList<Integer> numbers = new ArrayList<Integer>();
+
+        while (fileScanner.hasNext())
+        {
+            int x = fileScanner.nextInt();
+            if (x % 2 == 0)
+                numbers.add(x);
+        }
+        Collections.sort(numbers);
+        for (int i : numbers)
+        {
+            System.out.println(i);
+        }
     }
 }
