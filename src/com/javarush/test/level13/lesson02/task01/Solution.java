@@ -29,8 +29,31 @@ public class Solution
         void sleepOnTheFloor();
     }
 
-    public static class Beer
+    public static class Beer implements Alcohol
     {
 
+        @Override
+        public void sleepOnTheFloor()
+        {
+
+        }
+
+        @Override
+        public void askMore(String message)
+        {
+
+        }
+
+        @Override
+        public void sayThankYou()
+        {
+
+        }
+
+        @Override
+        public boolean isReadyToGoHome()
+        {
+            return READY_TO_GO_HOME;
+        }
     }
 }
