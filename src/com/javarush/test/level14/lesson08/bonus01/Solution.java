@@ -23,17 +23,18 @@ public class Solution
     }
 
     private static void initExceptions()
-    {   //it's first exception
-        try
+    {   //it'
+        for (int j = 0; j < 10; j++)
         {
-            float i = 1 / 0;
+            try
+            {
+                float i = 1 / 0;
 
-        } catch (Exception e)
-        {
-            exceptions.add(e);
+            }
+            catch (Exception e)
+            {
+                exceptions.add(e);
+            }
         }
-
-        //Add your code here
-
     }
 }
