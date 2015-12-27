@@ -14,15 +14,15 @@ public class Solution {
         NakedCat nakedSimka = simka.shave();
     }
 
-    public static class NakedCat {
-        public NakedCat() {
-            super();
-        }
+    public static class NakedCat
+    {
+
     }
 
+
     public static class NormalCat extends NakedCat {
+
         public NormalCat() {
-            super();
         }
 
         public NormalCat(String name) {

@@ -11,4 +11,14 @@ package com.javarush.test.level15.lesson09.task05;
 
 public class Solution {
     public static Object cat;
+    static
+    {
+        class Cat
+        {
+            String name = "Пушок";
+        }
+        Cat cat1 = new Cat();
+        cat = cat1;
+        System.out.println(cat1.name);
+    }
 }

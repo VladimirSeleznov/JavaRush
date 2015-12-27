@@ -20,7 +20,7 @@ public class Solution {
     public static int A = 0;
 
     static {
-        //throw an exception here - выбросьте эксепшн тут
+        A = 1/A;
     }
 
     public static int B = 5;
