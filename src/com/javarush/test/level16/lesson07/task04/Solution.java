@@ -28,24 +28,37 @@ public class Solution {
         t.start();
     }
 
-    public static class Countdown implements Runnable {
+    public static class Countdown implements Runnable
+    {
         private int countFrom;
 
-        public Countdown(int countFrom) {
+        public Countdown(int countFrom)
+        {
             this.countFrom = countFrom;
         }
 
-        public void run() {
-            try {
-                while (countFrom > 0) {
+        public void run()
+        {
+            try
+            {
+                while (countFrom > 0)
+                {
                     printCountdown();
                 }
-            } catch (InterruptedException e) {
+            }
+            catch (InterruptedException e)
+            {
             }
         }
 
-        public void printCountdown() throws InterruptedException {
-            //add your code here - добавь код тут
+        public void printCountdown() throws InterruptedException
+        {
+            for (int i = countFrom-1; i > 0-1; i--)
+            {
+                System.out.println(list.get(i));
+                Thread.sleep(500);
+                countFrom--;
+            }
         }
     }
 }

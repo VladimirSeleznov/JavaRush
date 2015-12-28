@@ -14,8 +14,35 @@ public class Solution {
     }
 
     //Add your code below - добавьте код ниже
-    public static class CountUpRunnable {
+    public static class CountUpRunnable implements Runnable{
+        private int countIndexUp = Solution.number;
+        private int currentIndex = 1;
+        private Thread t;
+
         public CountUpRunnable(String name) {
+            t = new Thread(this, name);
+            t.start();
+        }
+
+        @Override
+        public void run()
+        {
+            try
+            {
+                while (currentIndex <= countIndexUp)
+                {
+                    System.out.println(toString());
+                    currentIndex++;
+                    Thread.sleep(500);
+                }
+            } catch (InterruptedException e)
+            {
+            }
+
+        }
+
+        public String toString() {
+            return t.getName() + ": " + currentIndex;
         }
     }
 

@@ -45,7 +45,7 @@ public class Solution {
 
         private void doSeveralSteps() throws InterruptedException {
             stepNumber++;
-            //add your code here - добавь код тут
+            sleep((long) (1000/owner.getSpeed()));
             System.out.println(owner.getName() + " делает шаг №" + stepNumber + "!");
         }
     }
@@ -66,6 +66,7 @@ public class Solution {
         }
 
         public double getSpeed() {
+
             return speed;
         }
 

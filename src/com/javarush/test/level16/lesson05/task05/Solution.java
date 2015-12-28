@@ -31,6 +31,8 @@ public class Solution {
             System.out.println(getName() + " родила 2 котенка");
             try {
                 initAllKitten();
+                kitten1.join();
+                kitten2.join();
             } catch (InterruptedException e) {
             }
             System.out.println(getName() + ": Все котята в корзинке. " + getName() + " собрала их назад");
@@ -49,11 +51,19 @@ public class Solution {
 
         public void run() {
             System.out.println(getName() + ", вылез из корзинки");
-            investigateWorld();
+            try
+            {
+                investigateWorld();
+            }
+            catch (InterruptedException e)
+            {
+                e.printStackTrace();
+            }
         }
     }
 
-    private static void investigateWorld() {
-
+    private static void investigateWorld() throws InterruptedException
+    {
+        Thread.sleep(200);
     }
 }
