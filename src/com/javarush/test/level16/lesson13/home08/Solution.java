@@ -16,11 +16,13 @@ import java.util.List;
 2.2. Используй countReadStrings для подсчета уже считанных с консоли слов.
 */
 
-public class Solution {
+public class Solution
+{
     public static volatile byte countReadStrings;
     public static volatile BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException
+    {
         //read count of strings
         int count = Integer.parseInt(reader.readLine());
 
@@ -29,7 +31,8 @@ public class Solution {
         ReaderThread consolReader2 = new ReaderThread();
         ReaderThread consolReader3 = new ReaderThread();
 
-        while (count > countReadStrings) {
+        while (count > countReadStrings)
+        {
         }
 
         consolReader1.interrupt();
@@ -42,21 +45,36 @@ public class Solution {
         reader.close();
     }
 
-    public static class ReaderThread extends Thread {
+    public static class ReaderThread extends Thread
+    {
         private List<String> result = new ArrayList<String>();
 
-        public ReaderThread() {
+        public ReaderThread()
+        {
             start();
         }
 
-        public void run() {
-            //add your code here - добавьте код тут
+        public void run()
+        {
+            while (!isInterrupted()) {
+                try
+                {
+                    String string = reader.readLine();
+                    result.add(string);
+                    countReadStrings++;
+                }
+                catch (IOException e)
+                {
+                    //
+                }
+            }
         }
 
         @Override
-        public String toString() {
+        public String toString()
+        {
             String s = result.toString();
-            return s.substring(1, s.length()-1);
+            return s.substring(1, s.length() - 1);
         }
     }
 }
