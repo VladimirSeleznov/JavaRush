@@ -2,7 +2,7 @@ package com.javarush.test.level16.lesson13.bonus03;
 
 /* Отдебажим все на свете
 Разобраться, что делает програма.
-Почитать про UncaughtExceptionHandler - это важно.
+Почитать про  - это важно.
 Еще раз внимательно посмотреть программу.
 Разобраться - продебажить - почему наш OurUncaughtExceptionHandler не срабатывает.
 Исправить ошибку, т.е. все должно работать. :)
@@ -30,7 +30,7 @@ public class Solution {
 
     public static class TestedThread extends Thread {
         public TestedThread(UncaughtExceptionHandler handler) {
-            setUncaughtExceptionHandler(handler);
+            setDefaultUncaughtExceptionHandler(handler);
             start();
         }
 
@@ -47,6 +47,10 @@ public class Solution {
         @Override
         public void uncaughtException(Thread t, Throwable e) {
             System.out.println(t.getName() + ": " + e.getMessage());
+
+
         }
     }
+
+
 }
