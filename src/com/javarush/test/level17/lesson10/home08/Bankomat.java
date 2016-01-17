@@ -32,8 +32,9 @@ public class Bankomat {
     private static Thread addMoney = new Thread() {
         @Override
         public void run() {
+            account.deposit("1000");
             while (!isStopped) {
-                account.deposit("1000");            //кладем на счет
+                account.deposit("100");            //кладем на счет
                 try {
                     Thread.sleep(1000);
                 } catch (InterruptedException e) {
@@ -53,7 +54,7 @@ public class Bankomat {
         public void run() {
             while (!isStopped) {
                 try {
-                    account.withdraw("100");             //снимаем со счета
+                    account.withdraw("1000");             //снимаем со счета
                 } catch (NotEnoughMoneyException e) {
                     System.out.println("Недостаточно денег");
                 }

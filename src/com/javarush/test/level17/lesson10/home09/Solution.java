@@ -1,7 +1,10 @@
 package com.javarush.test.level17.lesson10.home09;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 /* Транзакционность
 Сделать метод joinData транзакционным, т.е. если произошел сбой, то данные не должны быть изменены.
@@ -15,14 +18,62 @@ import java.util.List;
 Метод joinData должен вызываться в main. Все исключения обработайте в методе main.
 */
 
-public class Solution {
+public class Solution
+{
     public static List<String> allLines = new ArrayList<String>();
     public static List<String> forRemoveLines = new ArrayList<String>();
 
-    public static void main(String[] args) {
+
+    public static void main(String[] args) throws FileNotFoundException, CorruptedDataException
+    {
+        Scanner fileNameScanner = new Scanner(System.in);
+        String fileNameAllLines = fileNameScanner.nextLine();
+        String fileNameForRemoveLines = fileNameScanner.nextLine();
+
+        fileNameScanner.close();
+
+
+        Scanner fileAllLines = new Scanner(new File(fileNameAllLines));
+        Scanner fileForRemoveLines = new Scanner(new File(fileNameForRemoveLines));
+
+        while (fileAllLines.hasNext())
+        {
+            allLines.add(fileAllLines.nextLine());
+        }
+        fileAllLines.close();
+
+        while (fileForRemoveLines.hasNext())
+        {
+            forRemoveLines.add(fileForRemoveLines.nextLine());
+        }
+        fileForRemoveLines.close();
+
+        Solution solution = new Solution();
+        solution.joinData();
+
+        for (String s : allLines)
+        {
+            System.out.println(s);
+        }
+
     }
 
-    public void joinData () throws CorruptedDataException {
+    public void joinData() throws CorruptedDataException
+    {
+        if (allLines.containsAll(forRemoveLines))
+        {
+            allLines.removeAll(forRemoveLines);
+        } else
+        {
 
+            for (String s : forRemoveLines)
+            {
+                if (!allLines.contains(s))
+                {
+                    allLines.clear();
+                    throw new CorruptedDataException();
+                }
+            }
+        }
     }
 }

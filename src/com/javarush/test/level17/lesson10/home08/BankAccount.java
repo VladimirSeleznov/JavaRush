@@ -34,7 +34,7 @@ public class BankAccount {
         deposit(new BigDecimal(money));
     }
 
-    public void withdraw(String money) throws NotEnoughMoneyException {
+    public synchronized void withdraw(String money) throws NotEnoughMoneyException {
         withdraw(new BigDecimal(money));
     }
 }
