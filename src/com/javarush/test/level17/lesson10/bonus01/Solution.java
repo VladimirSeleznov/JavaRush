@@ -1,8 +1,8 @@
 package com.javarush.test.level17.lesson10.bonus01;
 
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 /* CRUD
 CrUD - Create, Update, Delete
@@ -27,14 +27,67 @@ id соответствует индексу в списке
 Пример параметров: -c Миронов м 15/04/1990
 */
 
-public class Solution {
+public class Solution
+{
     public static List<Person> allPeople = new ArrayList<Person>();
-    static {
+
+    static
+    {
         allPeople.add(Person.createMale("Иванов Иван", new Date()));  //сегодня родился    id=0
         allPeople.add(Person.createMale("Петров Петр", new Date()));  //сегодня родился    id=1
     }
 
-    public static void main(String[] args) {
-        //start here - начни тут
+    public static void main(String[] args) throws Exception
+    {
+        SimpleDateFormat inDate = new SimpleDateFormat("MM/dd/yyyy", Locale.ENGLISH);
+        SimpleDateFormat outDate = new SimpleDateFormat("dd-MMM-yyyy", Locale.ENGLISH);
+        Person person;
+        switch (args[0])
+        {
+            case "-c":
+                switch (args[2])
+                {
+                    case "м":
+                        person = Person.createMale(args[1], inDate.parse(args[3]));
+                        break;
+                    case "ж":
+                        person = Person.createFemale(args[1], inDate.parse(args[3]));
+                        break;
+                    default:
+                        throw new Exception("sex param is incorrect");
+                }
+                allPeople.add(person);
+                System.out.println(allPeople.indexOf(person));
+                break;
+            case "-u":
+                int index = Integer.parseInt(args[1]);
+                person = allPeople.get(index);
+                person.setName(args[2]);
+                person.setBirthDay(inDate.parse(args[4]));
+                switch (args[3])
+                {
+                    case "м":
+                        person.setSex(Sex.MALE);
+                        break;
+                    case "ж":
+                        person.setSex(Sex.FEMALE);
+                        break;
+                    default:
+                        throw new Exception("sex param is incorrect");
+                }
+                break;
+            case "-d":
+                index = Integer.parseInt(args[1]);
+                person = allPeople.get(index);
+                person.setBirthDay(null);
+                break;
+            case  "-i":
+                index = Integer.parseInt(args[1]);
+                person = allPeople.get(index);
+                System.out.println(person.getName() + " " + (person.getSex().equals(Sex.MALE) ? "м" : "ж") + " " + outDate.format(person.getBirthDay()));
+                break;
+            default:
+                throw new Exception("parameter is incorrect");
+        }
     }
 }
