@@ -11,13 +11,27 @@ package com.javarush.test.level15.lesson12.home04;
 5.3. Сравнивать введенный параметр можно только с константами из Planet, нельзя создавать свои строки.
 */
 
+import java.util.Scanner;
+
 public class Solution {
     public static Planet thePlanet;
 
-    //add static block here - добавьте статический блок тут
+    static
+    {
+        readKeyFromConsoleAndInitPlanet();
+    }
 
     public static void readKeyFromConsoleAndInitPlanet() {
-        // implement step #5 here - реализуйте задание №5 тут
-        thePlanet = Sun.getInstance();
+        Scanner scanner = new Scanner(System.in);
+        String key = scanner.nextLine();
+        if (key.equals(Sun.SUN)) {
+            thePlanet = Sun.getInstance();
+        } else if (key.equals(Earth.EARTH)) {
+            thePlanet = Earth.getInstance();
+        } else if (key.equals(Moon.MOON)) {
+            thePlanet = Moon.getInstance();
+        } else {
+            thePlanet = null;
+        }
     }
 }

@@ -18,6 +18,17 @@ public class Solution {
         Object getAllowedAction();
     }
 
-    public static class Clothes {
+    public static class Clothes implements Movable, Discountable {
+        @Override
+        public Object getAllowedAction()
+        {
+            return null;
+        }
+
+        @Override
+        public boolean getAllowedAction(String name)
+        {
+            return false;
+        }
     }
 }

@@ -3,6 +3,7 @@ package com.javarush.test.level15.lesson09.task02;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Scanner;
 
 /* Статики 2
 1. В статическом блоке считайте две переменные с консоли А и В с типом int.
@@ -13,6 +14,12 @@ import java.io.InputStreamReader;
 public class Solution {
     public static int A;
     public static int B;
+    static {
+        Scanner scanner = new Scanner(System.in);
+        A = scanner.nextInt();
+        B = scanner.nextInt();
+        scanner.close();
+    }
 
     public static final int MIN = min(A, B);
 

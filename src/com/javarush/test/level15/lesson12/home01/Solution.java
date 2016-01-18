@@ -2,6 +2,7 @@ package com.javarush.test.level15.lesson12.home01;
 
 
 import java.io.IOException;
+import java.util.Scanner;
 
 /* Разные методы для разных типов
 1. Считать с консоли данные, пока не введено слово "exit".
@@ -14,7 +15,20 @@ import java.io.IOException;
 
 public class Solution {
     public static void main(String[] args) throws IOException {
-        //напиште тут ваш код
+        Scanner scanner = new Scanner(System.in);
+        String key = scanner.nextLine();
+        while (!key.equals("exit")) {
+            if (key.matches("-?\\d+(\\.\\d+)?") && key.contains(".")) {
+                    print(Double.parseDouble(key));
+            } else if (key.matches("-?\\d+(\\.\\d+)?") && Integer.parseInt(key) > 0 && Integer.parseInt(key) < 128) {
+                print(Short.parseShort(key));
+            } else if (key.matches("-?\\d+(\\.\\d+)?") && Integer.parseInt(key) >= 128) {
+                print(Integer.parseInt(key));
+            } else {
+                print(key);
+            }
+            key = scanner.nextLine();
+        }
     }
 
     public static void print(Double value) {
