@@ -39,9 +39,14 @@ public class Solution
 
     public static void main(String[] args) throws Exception
     {
-        SimpleDateFormat inDate = new SimpleDateFormat("MM/dd/yyyy", Locale.ENGLISH);
+        args = new String[]{
+                "-u", "0", "Mironov", "м", "15/04/1990",
+        };
+
+        SimpleDateFormat inDate = new SimpleDateFormat("dd/MM/yyyy", Locale.ENGLISH);
         SimpleDateFormat outDate = new SimpleDateFormat("dd-MMM-yyyy", Locale.ENGLISH);
         Person person;
+
         switch (args[0])
         {
             case "-c":
@@ -84,7 +89,11 @@ public class Solution
             case  "-i":
                 index = Integer.parseInt(args[1]);
                 person = allPeople.get(index);
-                System.out.println(person.getName() + " " + (person.getSex().equals(Sex.MALE) ? "м" : "ж") + " " + outDate.format(person.getBirthDay()));
+                System.out.println(person.getName()
+                        + " "
+                        + (person.getSex().equals(Sex.MALE) ? "м" : "ж")
+                        + " "
+                        + outDate.format(person.getBirthDay()));
                 break;
             default:
                 throw new Exception("parameter is incorrect");
