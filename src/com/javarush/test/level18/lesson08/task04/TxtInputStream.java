@@ -2,7 +2,6 @@ package com.javarush.test.level18.lesson08.task04;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.IOException;
 
 /* UnsupportedFileName
 Измените класс TxtInputStream так, чтобы он работал только с txt-файлами (*.txt)
@@ -11,7 +10,13 @@ import java.io.IOException;
 */
 
 public class TxtInputStream extends FileInputStream {
-    public TxtInputStream(String fileName) {
+
+    public TxtInputStream(String fileName) throws FileNotFoundException, UnsupportedFileNameException {
+        super(fileName);
+
+        if (!fileName.endsWith(".txt")) {
+            throw new UnsupportedFileNameException();
+        }
     }
 
 }

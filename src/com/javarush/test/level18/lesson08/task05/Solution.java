@@ -9,15 +9,36 @@ import java.util.List;
 */
 
 public class Solution {
-    public class TableInterfaceWrapper {
-
-    }
-
     public interface ATableInterface {
         void setModel(List rows);
 
         String getHeaderText();
 
         void setHeaderText(String newHeaderText);
+    }
+
+    public class TableInterfaceWrapper implements ATableInterface {
+
+        private ATableInterface original;
+
+        public TableInterfaceWrapper(ATableInterface aTableInterface) {
+            this.original = aTableInterface;
+        }
+
+        @Override
+        public void setModel(List rows) {
+            System.out.println(rows.size());
+            original.setModel(rows);
+        }
+
+        @Override
+        public String getHeaderText() {
+            return original.getHeaderText().toUpperCase();
+        }
+
+        @Override
+        public void setHeaderText(String newHeaderText) {
+            original.setHeaderText(newHeaderText);
+        }
     }
 }
