@@ -9,7 +9,31 @@ package com.javarush.test.level18.lesson10.home02;
 4. Закрыть потоки. Не использовать try-with-resources
 */
 
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
+
 public class Solution {
-    public static void main(String[] args) {
+
+    public static void main(String[] args) throws IOException {
+        int countSymbols = 0;
+        int countSpaces = 0;
+
+        if (args.length > 0) {
+            FileInputStream inputStream = new FileInputStream(args[0]);
+            while (inputStream.available() > 0) {
+                int bt = inputStream.read();
+                if (bt == 32) {
+                    countSpaces++;
+                }
+                countSymbols++;
+            }
+            inputStream.close();
+            double r = (double) countSpaces / (double) countSymbols * 100;
+            DecimalFormat decimalFormat = new DecimalFormat("#.##");
+            decimalFormat.setRoundingMode(RoundingMode.CEILING);
+            System.out.println(decimalFormat.format(r));
+        }
     }
 }
