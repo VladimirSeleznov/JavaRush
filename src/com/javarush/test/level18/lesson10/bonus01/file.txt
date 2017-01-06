@@ -1,0 +1,4 @@
+String str = "manchester united (with nice players)";
+System.out.println(str.replace("(with nice players)", ""));
+int index = str.indexOf("(");
+System.out.println(str.substring(0, index));

@@ -24,8 +24,87 @@ id productName price quantity
 19847983Куртка для сноубордистов, разм10173.991234
 */
 
-public class Solution {
-    public static void main(String[] args) {
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
 
+public class Solution {
+
+    public static void main(String[] args) throws IOException {
+
+        if (args.length > 0) {
+
+            Scanner scanner = new Scanner(System.in);
+            String fileName = scanner.next();
+            scanner.close();
+
+            FileInputStream in = new FileInputStream(fileName);
+            InputStreamReader inputStreamReader = new InputStreamReader(in);
+            BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+
+            List<String> lines = new ArrayList<>();
+            List<String> newLines = new ArrayList<>();
+
+            String line;
+            while ((line = bufferedReader.readLine()) != null) {
+                lines.add(line);
+            }
+
+            if ("-u".equals(args[0])) {
+                String newProductName = "";
+                for (int i = 2; i < args.length - 2; i++) {
+                    newProductName = newProductName + args[i] + " ";
+                }
+
+                String newId = align(args[1], 8);
+                newProductName = Solution.align(newProductName, 30);
+                String newPrice = align(args[args.length - 2], 8);
+                String newQuantity = align(args[args.length - 1], 4);
+
+                for (String item : lines) {
+                    String actualId = item.substring(0, 8);
+
+                    if (actualId.equals(newId)) {
+                        newLines.add(actualId + newProductName + newPrice + newQuantity);
+                    } else {
+                        newLines.add(item);
+                    }
+                }
+            }
+
+            if ("-d".equals(args[0])) {
+                String newId = align(args[1], 8);
+                for (String item : lines) {
+                    String actualId = item.substring(0, 8);
+                    if (!newId.equals(actualId)) {
+                        newLines.add(item);
+                    }
+                }
+            }
+
+            PrintWriter printWriter = new PrintWriter(fileName);
+            for (String newItem : newLines) {
+                printWriter.println(newItem);
+            }
+            printWriter.close();
+            in.close();
+            inputStreamReader.close();
+            bufferedReader.close();
+        }
+    }
+
+    private static String align(String s, int count) {
+        if (s.length() > count) {
+            s = s.substring(0, Math.min(s.length(), count));
+        } else {
+            s = String.format("%1$-" + count + "s", s);
+        }
+
+        return s;
     }
 }
