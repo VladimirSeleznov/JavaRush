@@ -7,6 +7,8 @@ package com.javarush.test.level19.lesson05.task01;
 Закрыть потоки ввода-вывода.
 */
 
+
+
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -28,7 +30,7 @@ public class Solution {
             i++;
             int data = fileReader.read();
 
-            if (i % 2 == 0) {
+            if (i%2 == 0) {
                 fileWriter.write(data);
             }
         }
